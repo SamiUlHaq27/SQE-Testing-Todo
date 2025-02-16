@@ -1,6 +1,6 @@
-#SQE Testing TODO App
+# SQE Testing TODO App
 
-##Test cases required
+## Test cases required
 1. Add a new todo item.
 2. Edit an existing todo item.
 3. Delete a todo item.
