@@ -15,6 +15,9 @@
 12. Maximum number of items
 13. Special characters
 14. Page loading time
-15. Drag and drop items
-16. Grouping items
-17. Clear all items
+15. Grouping items
+16. Clear all items
+17. Clear all pending tasks
+18. Clear all completed tasks
+19. Mark all pending tasks
+20. Unmark all completed tasks
