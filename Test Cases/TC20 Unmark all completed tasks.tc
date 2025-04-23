@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20 Unmark all completed tasks</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8513c1dc-f890-4dd1-ab68-fde30025c69f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17 Verify all pending tasks are removed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bec07c4d-ca80-4361-9beb-2365e35fd5b9</testCaseGuid>
+</TestCaseEntity>

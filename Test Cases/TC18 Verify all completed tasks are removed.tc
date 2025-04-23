@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>2. Edit item</name>
+   <name>TC18 Verify all completed tasks are removed</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>56c09172-f32a-49dd-a683-3fd2933af3ff</testCaseGuid>
+   <testCaseGuid>aa54ed10-4f4d-4806-84ec-23f1bbde6d52</testCaseGuid>
 </TestCaseEntity>

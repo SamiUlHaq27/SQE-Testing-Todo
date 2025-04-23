@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1. Add item</name>
+   <name>TC19 Mark all pending tasks</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>62b719fa-422c-4455-92bf-b5e1b154d633</testCaseGuid>
+   <testCaseGuid>3c142ff8-b0d4-4d53-8f88-96e11613159e</testCaseGuid>
 </TestCaseEntity>

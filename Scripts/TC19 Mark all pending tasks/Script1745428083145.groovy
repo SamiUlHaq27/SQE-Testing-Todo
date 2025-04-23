@@ -19,11 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://127.0.0.1:5500/todo/index.html')
+WebUI.navigateToUrl('http://localhost:5500/index.html')
 
-WebUI.click(findTestObject('Page_Todo list app/Page_Todo list app/li_create test cases'))
+WebUI.setText(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), 'a')
 
-WebUI.verifyElementPresent(findTestObject(null), 0)
+WebUI.sendKeys(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), 'b')
+
+WebUI.sendKeys(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), 'c')
+
+WebUI.sendKeys(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Page_Todo list app/button_Mark All'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Todo list app/ul_abc'), 0)
 
 WebUI.closeBrowser()
 

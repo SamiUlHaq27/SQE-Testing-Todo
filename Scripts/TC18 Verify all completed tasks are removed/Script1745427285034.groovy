@@ -19,13 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://127.0.0.1:5500/todo/index.html')
+WebUI.navigateToUrl('http://localhost:5500/index.html')
 
-WebUI.setText(findTestObject('Object Repository/Page_Todo list app/input_concat(id(, , item, , ))_item'), 'Information security assignment')
+WebUI.setText(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), 'Task 1')
 
-WebUI.click(findTestObject('Object Repository/Page_Todo list app/svg'))
+WebUI.sendKeys(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Todo list app/li_Information security assignment'), 0)
+WebUI.setText(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), 'Task 2')
+
+WebUI.sendKeys(findTestObject('Page_Todo list app/input_concat(id(, , item, , ))_item'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Page_Todo list app/button_Mark All'))
+
+WebUI.click(findTestObject('Object Repository/Page_Todo list app/button_Clear All'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Todo list app/ul_Clear All_completed'), 0)
 
 WebUI.closeBrowser()
 
